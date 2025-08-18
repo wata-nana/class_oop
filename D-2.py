@@ -8,7 +8,7 @@ class Rectangle:
         self.width = width
 
     def area(self):
-        result = self.height*self.width
+        result = self.height * self.width
         return f"{result:.2f}"
 
     def diagonal(self):
@@ -24,4 +24,3 @@ if __name__ == "__main__":
     rectangle2 = Rectangle(height=3, width=3)
     print(rectangle2.area())  # 9.00
     print(rectangle2.diagonal())  # 4.24
-
