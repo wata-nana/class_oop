@@ -4,11 +4,11 @@ class Circle:
         self.radius = radius
 
     def area(self):
-        result = (self.radius**2)*3.14
+        result = (self.radius**2) * 3.14
         return result
 
     def perimeter(self):
-        result = (self.radius*2)*3.14
+        result = (self.radius * 2) * 3.14
         return result
 
 
