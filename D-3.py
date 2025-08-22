@@ -11,7 +11,7 @@ class Square:
         return round(result, 2)
 
     def diagonal(self):
-        result = sqrt((self.side**2)*2)
+        result = sqrt((self.side**2) * 2)
         return round(result, 2)
 
 

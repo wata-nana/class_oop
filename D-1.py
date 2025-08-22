@@ -1,15 +1,18 @@
+from math import pi
+
+
 class Circle:
 
     def __init__(self, radius):
         self.radius = radius
 
     def area(self):
-        result = (self.radius**2)*3.14
-        return result
+        result = (self.radius**2) * pi
+        return round(result, 2)
 
     def perimeter(self):
-        result = (self.radius*2)*3.14
-        return result
+        result = (self.radius * 2) * pi
+        return round(result, 2)
 
 
 if __name__ == "__main__":

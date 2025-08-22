@@ -8,7 +8,7 @@ class Rectangle:
         self.width = width
 
     def area(self):
-        result = self.height*self.width
+        result = self.height * self.width
         return f"{result:.2f}"
 
     def diagonal(self):

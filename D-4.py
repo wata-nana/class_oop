@@ -3,7 +3,7 @@ class MyCounterV1:
     def __init__(self, value):
         self.value = value
 
-    # __init__はインスタンスが生成された時のみ呼ばれるから+1の累積で数を増やす。
+    # __init__はインスタンスが生成された時だけ呼ばれるから+1の累積で数を増やす。
     def count_up(self):
         self.value += 1
 
